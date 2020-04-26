@@ -45,3 +45,4 @@ jobs:
       script: docker push vasilevvd/albums-backend:$TRAVIS_TAG
       on:
         tags: true
+
