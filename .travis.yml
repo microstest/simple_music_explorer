@@ -35,15 +35,15 @@ jobs:
     - stage: push
       script:
       - docker-compose build server
-      - docker tag albums_server:latest vasilevvd/albums-backend:$GIT_SHA
-      - docker push vasilevvd/albums-backend:$GIT_SHA
-      - docker tag albums_server:latest vasilevvd/albums-backend:$TRAVIS_BRANCH
+      - docker tag albums_server:latest microstest/albums-backend:$GIT_SHA
+      - docker push microstest/albums-backend:$GIT_SHA
+      - docker tag albums_server:latest microstest/albums-backend:$TRAVIS_BRANCH
       deploy:
       - provider: script
-        script: docker push vasilevvd/albums-backend:$TRAVIS_BRANCH
+        script: docker push microstest/albums-backend:$TRAVIS_BRANCH
         on:
           branch: master
       - provider: script
-        script: docker push vasilevvd/albums-backend:$TRAVIS_TAG
+        script: docker push microstest/albums-backend:$TRAVIS_TAG
         on:
           tags: True
