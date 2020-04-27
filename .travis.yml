@@ -1,49 +1,47 @@
 services:
-  - docker
-
+- docker
 env:
   global:
-    - DOCKER_COMPOSE_VERSION=1.25.5
-    - secure: WvkFiTazZce0LTT8Vb0W2595JVrw3Lb4OeKhy1wgTpCOaArDRKOwgIlk2QBD19ELfC551h6JboAxPYOTPjkpAz+WiAt8FIRQILZUke43K01eUZOjGhApj06H0Q85uaBJq3LRKVBIEcWG+s+Xv5ZtohNqDv2/jJnxMtT+gOUcVOG/8n1Yn+mTB4zs5YWgGVkXy+4CXR1r10A00we0Aap+n2Np6CIk+/pk54Zh4bqS9Nd+Nm0Iiszh/O/f2Z5GbHDH5fhMrAo8PJ8uvd5MKsYx6Ip3yf7TztC11h71aSzLfWTAM3+j/oWIO4UC53y06xB9Xi0s7L/YR8Ct2QPxhlWdodgFiUM0yVsWNWVJ6NIZN/u8ICK1nrQHSZcadt0fyCF48ptmBaX35bsvmGMYnnQpIqfw1Eom+YhnpoOK/1W2Gv05W2tZfdZhs71/3Q2blg+WreRRz55fIBmHdgVnQ5LPsxUkVGIC2KPuvzw4GOj47M9ahGNJL8UmALJAplCJWIGiB1cjZrCPzZat/R2/H87Zn4jbvz10bKkSNPYxj8KsffIsZ2WAtRM4XXesonYvBAclLtMBTfxtgPCzh3f5QbZU647Qwx5CfFzTT3O56zbB5HQH4yRrEEi+2rZ6lWVlWRyKpTkW5Fwrp4Lp3qmHhC6o42QqZmMIR6TOkEKRA4cDjB4=
-    - secure: nb+LxRtSk7Fr2CzVyNb5NchlinSbu+Ienndsa0TrKq5m3BqbL6B8mLb8eaP0V50j6/H+dnyZDYvr4RAlFzKcox2nmeFzSiJbn9freeDFczh1nDPCNCpKdCk0qsm5pY3V3ACJMVjKGJ/LfLeHEM5+3eup0fpySsTnzEFtVnmgdHQ6APcxKJgE1EoRASaia/uGJiDgPgFzlJf/n3wzeKzOqQuSwyoNCvnIIubJg4G7WzwQFoTvj7cF918v1/9t3sGAnNaqFNkUuktut4fmnQz835Bcw6YbU69RS3izPcVvHDKumaa0oGCVCmfOZSwCcBasycOh9f7MCb1tGAoT1dzj7H0us/61isJTys29Q9xKKOd0nJabbADWSQGVfH0P6oqEScirSQInp7C6GaWdDzsz3hJ/SnQxgL8q+hPGZkiDzKrbQ/w571XaPdaUgea2nOwAyCGx9od2xcz7DaaxtBBYoDPv9RDokuCw/Wqy6YvkmvUt90DO/WKoD5vIZpS8Vug9gZF4GHHHLLL2KRVuwDp7gg/jpqZ9UjGDiABpz5ipiCwwhjkbbgEqLS2Dlm3hCVPZAe/6Q6oeovOeADh3V03eWpyJorMcSPKnSLxwewNrEpWrQhAlb8CpIpLM7TxGrU4vj5oos0ov0FQTSBr98dYfkx4bt0yOjt8zddLy8PtxyJQ=
-
+  - DOCKER_COMPOSE_VERSION=1.25.5
+  - secure: ZbdbIdCdjPaF9s+m/Dk8K1R1h4TyOpRp2FyKtmqbq+QuCeuON/9BR82iYR9pqwNFze0UqsupMoHnQD4aMkrRZqNi4CGG//IYPTpky6V97S2IHDdIYFGAsqzRXAri9nSRZYqGPyVijOxJhFcWK4x7r1XEHYP72Gp5RmHWOsHMDt+Z7wIshFpe4gi9bkGYX8VhB+u3ifC4s1ZBBzCrexU1c51sjxPsWUtZ0O/AnEctEF46AfxrMVpoPWlL9AY5RBbcYYIQbxR5bYCqWw71HxCYoyltzCZ8dbE9URTGo6IQDPSUpOcIXQ8xAvjvCKoQMdbAd1EP/2akOxuqDITqpWGHreN9h/1y7Jd37XgrhiVtQw8aGPz5FK3MA9CTTLHZi9cGC5zCVKfbru1LVQ0QUx5uvuAxGq9FkgqizYm0aYgB5stiMBs8EzL7sFMzVCqxKCo1c36ESpm+qK7oHSUrT3uqkdzzXRUV24cm0CIsBpXtOtTP7PUL7nadZaa2U0GoiECtinEvhkKtuH1s1B1TIUxVUwHx/DwIOFzoQbEcT6nqPgFSP1Wmh8RETRzsvZY8qFYBPKcGMTLYght/rfAyYrtuj15Mih8EjSnxNlfJRJV4gmM3iM486SDjPM//keCt02fGv1r5lGU7nhD7eD2Vi3jTKz15hjRHXXzWi8JQPUfgWxg=
+  - secure: EfvWpE4PnRugw9is+gtSarzteL2avVcZ+3MblLwBlCF2CNVbABMBmiajcJkF8RaKQFQznUJBBZEXPIfgaoBfTThae2yz9FSvi4eRmV8knsChtX6JtR5UUhi8ucCNj8m/5aEGSuo6lkbmFazS2bloQbzMoLAToXzNsxecFfR3v/tLEagTk1FsiRtGwz0+6VulxpP9sKZ7drf6I/np/wxaDjHfuKJsczLNQfNPc1cjF83mmYchVgaM8pbNWA/A0SW8+PpNSVGlgJznJ+ksvxK1FIHmhdTAZkWS1+9aa3La0AphnhkpA4VD0zhZKVpmvJ/ERUaY83fsysl4p9/n9LnNqqgK7c6jfasP7Yd+i5dzsjJnmTxZ/m5PoyZXGq13zULM401lo9iXtAcct8MCHQ0udgyJNj7IwnwLTBmFQZgJkBMhjQqtFP3n9K25nxM0tdciTmDVcoIrKXgpDdgewoil1djJCq1vgMwPqlQZWn+y85rHVxCu/vEbVXercS14m57x1uluvdeHVkQrKj+4BUXrm/HCYyJsqnnsLuVDJIIZPSZrLS35xTiRCUY0pdtwCxKyq9zfCyKmzGDaJFV11Bq7Cf8bi0MbTihsFZboZDK3L18jLwohJXpNe+rzbpfXqCERBQzpz8O/eAyjfbXg/Z4p8sr6LnJRUqQSkHj1F8xTcgI=
 before_install:
-  - sudo rm /usr/local/bin/docker-compose
-  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
-  - chmod +x docker-compose
-  - sudo mv docker-compose /usr/local/bin
-  - docker --version
-  - docker-compose version
-  - echo "Login into Docker Hub"
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - export GIT_SHA=`git rev-parse --short HEAD`
-  - echo "Building commit $GIT_SHA"
-
+- sudo rm /usr/local/bin/docker-compose
+- curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname
+  -s`-`uname -m` > docker-compose
+- chmod +x docker-compose
+- sudo mv docker-compose /usr/local/bin
+- docker --version
+- docker-compose version
+- echo "Login into Docker Hub"
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+- export GIT_SHA=`git rev-parse --short HEAD`
+- echo "Building commit $GIT_SHA"
 jobs:
   include:
-    - stage: tests
-      name: "Unit Tests"
-      script:
-      - docker-compose build db
-      - docker-compose build test-postgresql
-      - docker-compose run test-postgresql
-    - stage: tests
-      name: "Static Analysis"
-      script:
-      - docker-compose build static-analysis
-      - docker-compose run static-analysis
-    - stage: push
-      script:
-      - docker-compose build server
-      - docker tag albums_server:latest vasilevvd/albums-backend:$GIT_SHA
-      - docker push vasilevvd/albums-backend:$GIT_SHA
-      - docker tag albums_server:latest vasilevvd/albums-backend:$TRAVIS_BRANCH
-      deploy:
-      - provider: script
-        script: docker push vasilevvd/albums-backend:$TRAVIS_BRANCH
-        on:
-          branch: master
-      - provider: script
-        script: docker push vasilevvd/albums-backend:$TRAVIS_TAG
-        on:
-          tags: True
+  - stage: tests
+    name: Unit Tests
+    script:
+    - docker-compose build db
+    - docker-compose build test-postgresql
+    - docker-compose run test-postgresql
+  - stage: tests
+    name: Static Analysis
+    script:
+    - docker-compose build static-analysis
+    - docker-compose run static-analysis
+  - stage: push
+    script:
+    - docker-compose build server
+    - docker tag albums_server:latest microstest/albums-backend:$GIT_SHA
+    - docker push microstest/albums-backend:$GIT_SHA
+    - docker tag albums_server:latest microstest/albums-backend:$TRAVIS_BRANCH
+    deploy:
+    - provider: script
+      script: docker push microstest/albums-backend:$TRAVIS_BRANCH
+      on:
+        branch: master
+    - provider: script
+      script: docker push microstest/albums-backend:$TRAVIS_TAG
+      on:
+        tags: true
